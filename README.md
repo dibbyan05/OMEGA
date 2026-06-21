@@ -395,3 +395,5 @@ Make sure `meta-llama/llama-3.2-11b-vision-instruct:free` is available on your O
 ---
 
 *Built with ❤️ — Powered entirely by free tools.*
+#   O M E G A  
+ 
