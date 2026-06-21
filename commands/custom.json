@@ -1,0 +1,55 @@
+{
+  "study": {
+    "greeting": "Study mode activated sir. Closing distractions and setting up your workspace.",
+    "steps": [
+      { "type": "close_app", "value": "discord" },
+      { "type": "close_app", "value": "spotify" },
+      { "type": "open_app",  "value": "vscode" },
+      { "type": "sleep",     "value": "1.5" },
+      { "type": "open_url",  "value": "https://www.notion.so" },
+      { "type": "speak",     "value": "Study mode is ready. Focus time sir." }
+    ]
+  },
+  "gaming": {
+    "greeting": "Gaming mode activated sir. Let us get you set up.",
+    "steps": [
+      { "type": "open_app", "value": "discord" },
+      { "type": "sleep",    "value": "1.0" },
+      { "type": "open_app", "value": "spotify" },
+      { "type": "volume",   "value": "70" },
+      { "type": "speak",    "value": "All set sir. Time to dominate." }
+    ]
+  },
+  "work": {
+    "greeting": "Work mode, coming right up sir.",
+    "steps": [
+      { "type": "open_app", "value": "chrome" },
+      { "type": "sleep",    "value": "1.0" },
+      { "type": "open_app", "value": "vscode" },
+      { "type": "sleep",    "value": "1.0" },
+      { "type": "open_url", "value": "https://mail.google.com" },
+      { "type": "volume",   "value": "40" },
+      { "type": "speak",    "value": "Work mode ready. Let us get things done sir." }
+    ]
+  },
+  "night": {
+    "greeting": "Night mode. Dimming things down for you sir.",
+    "steps": [
+      { "type": "close_app", "value": "spotify" },
+      { "type": "volume",    "value": "50" },
+      { "type": "key",       "value": "win+a" },
+      { "type": "open_url", "value": "https://www.youtube.com/watch?v=TVv8vC0MWHA&list=RDTVv8vC0MWHA&start_radio=1&t=5s" },
+      { "type": "speak",     "value": "Night mode set. Rest well sir." }
+    ]
+  },
+  "presentation": {
+    "greeting": "Presentation mode activated sir. Getting everything ready.",
+    "steps": [
+      { "type": "close_app", "value": "discord" },
+      { "type": "close_app", "value": "spotify" },
+      { "type": "open_app",  "value": "powerpoint" },
+      { "type": "volume",    "value": "60" },
+      { "type": "speak",     "value": "Stage is set sir. You are going to do great." }
+    ]
+  }
+}

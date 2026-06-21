@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────
+#  J.A.R.V.I.S  v5.0  —  Requirements
+#  100% FREE stack — no paid APIs, no ElevenLabs, no OpenAI
+#
+#  Install:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# ── Speech Recognition (Google free speech API) ──────────────
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.13           # microphone input driver
+
+# ── Text-to-Speech ───────────────────────────────────────────
+pyttsx3>=2.90             # PRIMARY: fully offline, Windows SAPI5 voice
+gTTS>=2.3.2               # FALLBACK: free Google TTS (needs internet)
+playsound==1.2.2          # audio playback for gTTS mp3 output
+
+# ── HTTP / API ───────────────────────────────────────────────
+requests>=2.31.0          # OpenRouter API calls
+
+# ── Screen & GUI control ─────────────────────────────────────
+Pillow>=10.0.0            # PIL.ImageGrab for screenshots
+pyautogui>=0.9.54         # keyboard/mouse automation, volume keys
+pygetwindow>=0.0.9        # window maximize/minimize/close
+
+# ── System monitoring ────────────────────────────────────────
+psutil>=5.9.0             # CPU, RAM, battery status
